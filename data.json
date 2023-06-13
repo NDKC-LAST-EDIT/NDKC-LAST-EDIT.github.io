@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "age": {
+      "type": "number"
+    },
+    "height": {
+      "type": "number"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "activities": {
+      "type": "number",
+      "minimum": 20,
+      "maximum": 100
+    },
+    "foodIntake": {
+      "type": "number",
+      "minimum": 20,
+      "maximum": 100
+    },
+    "water": {
+      "type": "number",
+      "minimum": 20,
+      "maximum": 100
+    },
+    "sleep": {
+      "type": "number",
+      "minimum": 20,
+      "maximum": 100
+    },
+    "socialInteractions": {
+      "type": "number",
+      "minimum": 20,
+      "maximum": 100
+    }
+  },
+  "required": [ "age", "height", "weight", "activities", "foodIntake", "water", "sleep", "socialInteractions" ],
+  "type": "object"
+}
